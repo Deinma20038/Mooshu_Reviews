@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+ <style>
+                *{
+                  padding: 0;
+                  margin:0 ;
+              }
+           .head{
+               
+               margin: 0 auto;
+               background-color: black
+           }   
+          
+           .cheee{
+               height: 17px;
+               background-color: black;
+           }
+           .ul_1{
+              float: right;
+              display: flex;
+              color: aliceblue;
+              font-size: 12px;
+              list-style:none;
+              margin-right: 60px;
+           }
+           .li{
+              display: inline-block;
+              padding-bottom: 40px;
+              margin-right: 20px;
+              line-height: 60px;
+              font-family: 'Source Sans Pro', sans-serif;
+              color: white;
+              text-decoration: none;
+           }
+</style>           
+<head>
+        <title>Mooshu Reviews</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link href="css/css/hover.css" rel="stylesheet">
+        <link href="css/scss/effects/border-transitions/_underline-from-center.scss" rel="stylesheet">
+        <link href="css/scss/hover.scss" rel="stylesheet">
+        <link href="css/scss/effects/2d-transitions/_pulse-grow.scss" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/326f82b265.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Lobster|Pacifico|Staatliches|Tomorrow&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="js/gallery.js"></script> 
+        <link href="css/scss/effects/2d-transitions/_hang.scss">
+        <link href="css/scss/effects/2d-transitions/_bob.scss">
+        <link href="css/scss/effects/background-transitions/_buzz.scss">
+    </head>
+<body style="background-color: black;" >
+    <!-- Head -->
+    <div class="head">
+            <ul class="ul_1">
+                    <li class="li">
+                      <a class="hvr-underline-from-center" href="index.html" target="_self"><b class="hvr-bob">Home</b></a>
+                    </li>
+                    <li class="li">
+                      <a class="hvr-underline-from-center" href="about.html" target="_self"><b class="hvr-bob">About</b></a>
+                    </li>
+                    <li class="li">
+                      <a class="hvr-underline-from-center"  href="subscribe.html"><b class="hvr-bob">Subscribe</b></a>
+                    </li>
+                  </ul>
+
+       <a href="index.html" target="_self" class="hvr-bob"><img src="img/moosh.jpg" style="float: inline-start; height:100px ; "></a>
+    </div>
+    <div class="cheee">
+    </div>
+
+
+    <div style="width: 50%; height: 700px; background-color: white; float:left;">
+    <!--Section: Contact v.2-->
+<section class="mb-4">
+
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4" style="font-family: 'Staatliches', cursive;"><b class="hvr-bounce-in">SUBSCRIBE</b></h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">Subscribe to our News Letter to keep up to date with all the latest on everything gaming.</p>
+    
+        <div class="row">
+    
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+    
+                    <!--Grid row-->
+                    <div class="row">
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control" required placeholder="John Doe" style="margin-left: 90px;" autofocus>
+                                <label for="name" class="" style="margin-left: 90px;">Full name</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control" required placeholder="johndoe@example.com" style="margin-left: 90px;">
+                                <label for="email" class=""style="margin-left: 90px;">Email</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                    </div><br><br><br>
+                    <!--Grid row-->
+    
+            
+                    <div class="row">
+                       <h5 style="margin-left: 200px;">You can leave us a message   <i class="far fa-smile-beam"></i></h5>
+                    </div>
+                   
+    
+                    <!--Grid row-->
+                    <div class="row">
+    
+                        <!--Grid column-->
+                        <div class="col-md-12">
+    
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" style="margin-left: 90px;"></textarea>
+                                <label for="message" style="margin-left: 90px;">Your message</label>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                    <div class="text-center text-md-left">
+                    <input type="submit" value="SUBSCRIBE" style="margin-left: 300px; font-family: 'Tomorrow'; background-color:white; color:black; " class="hvr-buzz" >
+                         </div>
+                         <div class="status"></div>
+                    
+    
+                </form>
+                </div>
+    
+            <!--Grid column-->
+
+            <div class="row">
+    
+            <!--Grid column-->
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0" style="display: flex;">
+                    <li class="hvr-bob" style="margin-left: 80px; margin-top: 80px;"><i class="fas fa-map-marker-alt fa-2x"></i>
+                        <p>Abuja,ABJ 90001,NIGERIA</p>
+                    </li>
+    
+                    <li class="hvr-bob" style="margin-left:90px; margin-top: 60px;"><i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p> <p>+2348088726395</p></p>
+                    </li>
+    
+                    <li class="hvr-bob" style="margin-left: 90px; margin-top: 60px;"><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p><p>jagziyaz@outlook.com</p></p>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+    
+        </div>
+    </div>
+    </section>
+    <!--Section: Contact v.2-->
+    </div>
+    <div style="width: 50%; height: 50%; background-color: blue; float:right;"><img src="Img/death.jpg" style="height:700px"></div>
+
+
+
+
+
+    <div style="background-color:black"><b style="color: black;">empty</b></div>
+    <!-- Footer -->
+    <footer class="page-footer font-small stylish-color-dark pt-4" style="background-color:black;">
+      
+            <!-- Call to action -->
+            <ul class="list-unstyled list-inline text-center py-2">
+              <li class="list-inline-item">
+                <h5 class="mb-1"><b class="hvr-bob" style="color: white; ">Subscribe for free</b></h5>
+              </li>
+              <li class="list-inline-item">
+                <a href="subscribe.html" class="btn btn-danger btn-rounded">Subscribe!</a>
+              </li>
+            </ul>
+            <!-- Call to action -->
+          
+            <hr>
+          
+            <!-- Social buttons -->
+            <ul class="list-unstyled list-inline text-center">
+              <li class="list-inline-item">
+                <a class="btn-floating btn-fb mx-1" href="https://web.facebook.com/justin.iyaz.1?ref=bookmarks&_rdc=10&_rdr" style="color: white;">
+                  <i class="fab fa-facebook-f" title="Facebook"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-tw mx-1" href="https://twitter.com/HeroBrizzy" style="color:white;">
+                  <i class="fab fa-twitter" title="Twitter"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-li mx-1" href="https://www.instagram.com/m00shuuu/" style="color:white;">
+                <i class="fab fa-instagram" title="Instagram"></i>
+                </a>
+              </li>
+            </ul>
+            <!-- Social buttons -->
+          
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3" style="color: white;">© 2019 Copyright:
+              <a href="index.html"> MooshuReviews</a>
+            </div>
+            <!-- Copyright -->
+          
+          </footer>
+          <!-- Footer --> 
+          </body>
+          </html>  
